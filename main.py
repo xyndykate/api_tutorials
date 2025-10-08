@@ -20,7 +20,7 @@ def get_stock_data():
         return None
 
 price = get_stock_data()  # Fetch the latest stock price
-symbol = "IBM"  # Define the stock symbol
+symbol = "IBM"  # Define the  symbol
 if price is not None:
     # Print the stock symbol and price if data was retrieved
     print(f"{symbol}: {price}")
